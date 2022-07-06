@@ -171,7 +171,7 @@ class FrequencyChart : ScrollableChart {
         drawFooter(canvas, rect, date)
     }
 
-    //This is an attempt to fix things
+    // This is an attempt to fix things
 
     private fun drawFooter(canvas: Canvas, rect: RectF?, date: GregorianCalendar) {
         val time = date.time
